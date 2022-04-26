@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: noto-sans, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+:root{
+    --font:#ffffff;
+    --black: black;
+    --first: #8a8a8a;
+    --second: #cacaca ;
+    --bottom: #5a5a5a;
+    --button-color:#475faf;
+    --blue: #4d6cd1;
+    --border: rgb(158, 158, 158);
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--bottom);
+    overflow: hidden;
+}
+
+.form{
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    background-color: rgb(144, 144, 144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px rgb(68, 68, 68);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+    gap: 20px;
+
+}
+
+.card-top{
+    border-radius: 10px 10px 0px 0px;
+    background-image:linear-gradient(-60deg, var(--blue), #6b86dd);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-top>h2{
+    color: var(--font);
+    font-size: 50px;
+    font-weight: 750;
+}
+
+.card-group{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    
+}
+
+.card-group [src="css/mail.svg"]{
+    position: absolute;
+    top: 32px;
+    left: 10px;
+    
+}
+
+.card-group [src="css/lock.svg"]{
+    position: absolute;
+    top: 32px;
+    left: 10px;
+
+    
+}
+.card-group>label{
+    color: var(--font);
+    font-size: 13px;
+}
+
+.card-group>input{
+    color: var(--font);
+    font-size: 13px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: var(--first);
+    border-radius: 10px;
+    outline: none;
+    padding-left: 40px;
+    border:var( --border) 2px solid;
+}
+
+.card-group>input:hover{
+    border:var(--second) 2px solid;
+}
+
+::placeholder{
+    color: var(--second);
+}
+
+button{
+    margin-top: 10px;
+    background-color: #7491f0;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    color: var(--font);
+    font-weight: 790;
+    transition: 150ms ease-in-out;  
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #6b86dd;
+}
+
+button:active{
+    transform: scale(0.97);
+}
+
+.checkbox-align{
+    margin-top: 10px;
+    color: var(--font);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-align>input{
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-color: var(--second);
+    appearance: none;
+    border-radius: 5px;
+    border:var(--second) 2px solid;
+}
+
+.checkbox-align>input:checked{
+    background-color: var(--blue);
+}
+
+.link-create>a{
+    height: 70px;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--font);
+}
+
+/*pagina bem vindo*/
+
+.view{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bottom);
+}
+
+.bottom-color{
+    background-image:linear-gradient(-60deg, var(--blue), #6b86dd);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--font);
+}
+
+.card-center{
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(144, 144, 144);
+    width: 400px;
+    height: 300px;
+    gap: 20px;
+    box-shadow: 3px 3px 5px rgb(68, 68, 68);
+}
+
+.bottom-color>p{
+    font-size: 30px;
+}
+
+.comand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 50px;
+    width: 70%;
+    background-color: var(--first);
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.sair{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+/* pagina cadastro*/
+
+.create-bottom{
+    width: 100vw;
+    height: 100vh;
+    background-color:var(--bottom);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-register{
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    background-color: rgb(144, 144, 144);
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px rgb(68, 68, 68);
+}
+
+.register-title{
+    border-radius: 10px 10px 0px 0px;
+    background-image:linear-gradient(-60deg, var(--blue), #6b86dd);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.register-title>h2{
+    color: var(--font);
+    font-size: 45px;
+    font-weight: 750;
+}
+
+.form-register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+    gap: 20px;
+
+}
+
+.input-register{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.input-register>input{
+    color: var(--font);
+    font-size: 13px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: var(--first);
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    border:var( --border) 2px solid;
+}
+
+.input-register>input:hover{
+    border:var(--second) 2px solid;
+}
+
+.input-register>label{
+    color: var(--font);
+    font-size: 13px;
+}
+
+.button-register{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-register>button{
+    margin-top: 10px;
+    background-color: #7491f0;
+    border: none;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    color: var(--font);
+    font-weight: 790;
+    transition: 150ms ease-in-out;  
+    cursor: pointer;
+}
+
+.button-register>button:hover{
+    background-color: #6b86dd;
+}
+
+
+
+
