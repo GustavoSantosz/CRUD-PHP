@@ -1,6 +1,18 @@
 <?php
-    require("verifica.php");
-    if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])):
+    require("conexao2.php");
+    if(isset($_SESSION['idUser']) && !empty($_SESSION['idUser'])){
+
+        require_once("Usuario.php");
+
+        $u = new Usu();
+        $usuarioLogado = $u->logged($_SESSION['idUser']);
+        $nomeUser = $usuarioLogado['nome'];
+
+    }else{
+
+        header("Location: login.php");
+
+    }
 ?>
 
 <!DOCTYPE html>
@@ -34,5 +46,3 @@
 
 </body>
 </html>
-
-<?php else:header("Location: login.php"); endif; ?>
