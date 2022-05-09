@@ -1,11 +1,6 @@
 # login-cadastro-PHP
 PHP login and registration project. Project made for my practice in PHP language.
 
-![image](https://user-images.githubusercontent.com/89220364/167352014-ba6cf6aa-4b0b-4f75-9896-52282757caa2.png)
-
-![image](https://user-images.githubusercontent.com/89220364/167351972-5355697e-5b31-4c83-aaf4-4979e026aa0d.png)
-
-
 linguagem: pt-BR
 
 Este é um projeto de login e cadastro feito em PHP, com meu conhecimento na linguagem. 
@@ -37,5 +32,8 @@ Connection via PDO,
 Data storage (MYSQL Workbench),
 Security against SQL INJECTOR
 and some other features.
+
+![image](https://user-images.githubusercontent.com/89220364/167352143-e9d38792-a5c7-46c3-b075-d8a0ab91ac7f.png), ![image](https://user-images.githubusercontent.com/89220364/167352256-2e2ae4a0-9b66-4a2d-a87e-6a9bbd8e9d82.png)
+
 
 Translated with www.DeepL.com/Translator (free version)
