@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script/jquery.js"></script>
+    <script type="text/javascript" src="script/acesso.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Login</title>
 </head>
 <body>
@@ -21,11 +24,10 @@
                         <label>Senha</label>
                         <input type="password" name="senha" placeholder="Digite sua senha" required>
                     </div>
-                    <div class="card-group btn">
+                    <div class="card-group">
                         <button type="submit">LOGIN</button>
                     </div>
-                    <div class="link-create">
-                        <a href="Cadastro/cadastro.php">Criar cadastro</a>
+                    <div class="link-create"><p>Não possui uma conta? </p><a href="Cadastro/cadastro.php">  Criar conta.</a>
                     </div>
                 </div>
             </form>

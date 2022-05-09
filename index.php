@@ -22,28 +22,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleB.css">
     <title><?php echo $nome; ?></title>
 </head>
 <body>
-
-    <?php if($adm):?>
-
-        <div class="user">
-            <a href="listaUsu.php" style="color: black;">VER USUARIO</a>
-        </div>
-
-    <?php endif;?>
-
-        <main>
-            <section class="view">
-                <div class="card-center">
-                    <div class="bottom-color">
-                    <p class="bv">Bem-vindo <?php echo $nome; ?></p>
-                    </div>
-                      <a href="logout.php"><button>SAIR</button></a>
+    <main>
+        <div class="bottom-color">
+            <p class="bv">Bem-vindo <?php echo $nome; ?></p>
+            <?php if($adm):?>
+                <div class="user">
+                     <a href="listaUsu.php"><button>VER USUARIO</button> </a>
                 </div>
-            </section>
-        </main>
+            <?php endif;?>
+        </div>
+        <a href="logout.php"><button>SAIR</button></a>
+
+
+    </main>
 
 </body>
 </html>

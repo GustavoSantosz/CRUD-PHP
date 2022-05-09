@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-view{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #0A0A0A;
+}
+
+h2{
+    color: white;
+    font-size: 64px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.card-group{
+    display: flex;
+
+    gap: 15px;
+    flex-direction: column;
+}
+
+.card-group input{
+    width: 350px;
+    height: 56px;
+
+    padding-inline: 20px;
+
+    color: white;
+
+    border: solid 2px rgba(128, 128, 128, 0);
+
+    border-radius: 8px;
+
+    background-color:#1D1D1D;
+
+}
+
+input:hover{
+    border: solid 2px gray;
+}
+
+.card-group input:focus{
+    border: solid 2px #546EF3 ;
+    outline-style: none;
+}
+
+.card-group label{
+    color: white;
+}
+
+.card-group button{
+    width: 350px;
+    height: 48px;
+
+    border: none;
+
+    color: white;
+
+    border-radius: 8px;
+    background: #546EF3;
+
+    font-weight: 700;
+
+    transition: 150ms;
+}
+
+button:active{
+    transform: scale(0.995);
+}
+
+button:hover{
+    background: #3f53b9;
+}
+
+.link-create{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    gap: 10px;
+}
+
+.link-create p{
+    color: white;
+    
+}
+
+.link-create a{
+    color: #546EF3;
+}

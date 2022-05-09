@@ -14,7 +14,7 @@ if(isset($_POST['nome']) && !empty($_POST['nome']) && isset($_POST['email']) && 
 
     if($stmt->rowCount() > 0){
 
-        echo '<div class="existe">'."Usuario ja existe".'</div>';
+        echo "Usuario ja existe";
 
     }else{
 
