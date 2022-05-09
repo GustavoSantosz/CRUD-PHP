@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Projeto5/css/style.css">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <?php
@@ -54,4 +53,5 @@
     </main>
 
 </body>
+
 <html>
