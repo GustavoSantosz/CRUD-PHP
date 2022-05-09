@@ -32,9 +32,7 @@ Connection via PDO,
 Data storage (MYSQL Workbench),
 Security against SQL INJECTOR
 and some other features.
-![image](https://user-images.githubusercontent.com/89220364/167352737-68178ff9-6f95-41b6-9174-37cf0621e0b8.png) ![image](https://user-images.githubusercontent.com/89220364/167352588-c0a16ad5-144a-4925-ad05-c491c1414b7b.png)
 
-
-
+![image](https://user-images.githubusercontent.com/89220364/167352737-68178ff9-6f95-41b6-9174-37cf0621e0b8.png)![image](https://user-images.githubusercontent.com/89220364/167352588-c0a16ad5-144a-4925-ad05-c491c1414b7b.png)
 
 Translated with www.DeepL.com/Translator (free version)
