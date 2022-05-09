@@ -1,6 +1,10 @@
 # login-cadastro-PHP
 PHP login and registration project. Project made for my practice in PHP language.
 
+![image](https://user-images.githubusercontent.com/89220364/167352014-ba6cf6aa-4b0b-4f75-9896-52282757caa2.png)
+
+![image](https://user-images.githubusercontent.com/89220364/167351972-5355697e-5b31-4c83-aaf4-4979e026aa0d.png)
+
 
 linguagem: pt-BR
 
