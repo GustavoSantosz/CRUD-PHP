@@ -41,6 +41,12 @@ if(isset($_POST['nome']) && isset($_POST['email'])  && isset($_POST['senha'])){
 
     }else{
          
+        if($stmt->rowCount() > 0){
+
+            echo "Usuario ja existe";
+            
+        }else{
+
         $id = (int)$_GET['id'];
 
         $sql = $conn->prepare("UPDATE usuarios SET nome = :nome, email = :email, senha = :senha, dtcadastro = '{$dtcadastro}' WHERE idusuarios = :id");
@@ -53,6 +59,9 @@ if(isset($_POST['nome']) && isset($_POST['email'])  && isset($_POST['senha'])){
         $sql->execute();
         
         echo 'Usuário atualizado com sucesso';
+
+        }    
+        
 
     }
 
