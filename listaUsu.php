@@ -51,7 +51,8 @@ if($qtd >= 0){
         print "<td>
 
         <button onclick=\" location.href='Cadastro/cadastro.php?id=".$row['idusuarios']."';\" class='btn btn-primary'>Editar</button>
-        <button class='btn btn-danger'>Excluir</button>
+        <button onclick=\" location.href='delete.php?id=".$row['idusuarios']."';\" class='btn btn-danger'>Excluir</button>
+        
         
         </td>";
         print "</tr>";
