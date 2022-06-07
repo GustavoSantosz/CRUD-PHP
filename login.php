@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="script/jquery.js"></script>
     <script type="text/javascript" src="script/acesso.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Login</title>
 </head>
 <body>
@@ -27,7 +27,7 @@
                     <div class="card-group">
                         <button type="submit">LOGIN</button>
                     </div>
-                    <div class="link-create"><p>Não possui uma conta? </p><a href="Cadastro/cadastro.php">  Criar conta.</a>
+                    <div class="link-create"><p>Não possui uma conta? </p><a href="Cadastro/cadastro.php?id==0">Criar conta.</a>
                     </div>
                 </div>
             </form>
